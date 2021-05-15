@@ -4,8 +4,9 @@ body {
 .container
 {
   display:grid;
+  grid-template-rows:repeat(3,auto);
 }
-div{
- color:green;
+.container>div{
+margin:5px;
   background-color:red;
 }
